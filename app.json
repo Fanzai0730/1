@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/list/index",
+    "pages/map/index",
+    "pages/logs/logs",
+    "pages/zhixian/index",
+    "pages/jiangkong/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap85.json"
+}

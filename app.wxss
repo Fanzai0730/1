@@ -1,0 +1,63 @@
+page {
+  background-color: #eef0f6;
+}
+
+/* 默认按钮 */
+button.btn-wr {
+  width: 100% !important;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0;
+  border: 0;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-weight: normal;
+  background-color: #2550c1;
+  color: white;
+}
+button.btn-wr[disabled] {
+  border: 0;
+  background-color: #2550c1 !important;
+  opacity: 0.4;
+  color: white !important;
+}
+button.btn-wr[plain] {
+  border: 1rpx solid #2163e0;
+  background-color: white;
+  color: #2163e0;
+}
+button.btn-wr.button-hover {
+  background-color: #3a84ee;
+}
+button.btn-wr[plain].button-hover {
+  background-color: #eee;
+}
+
+button.preservation-wr {
+  width: 100% !important;
+  height: 90rpx;
+  line-height: 90rpx;
+  padding: 0;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  font-weight: normal;
+  background-color: white;
+  color: #2550C1;
+  border:1px solid rgba(37,80,193,1);
+}
+
+/* 这是啥？ */
+.after_select:after {
+  position: absolute;
+  content:'';
+  width: 0rpx;
+  height: 0rpx;
+  top: 0;
+  bottom: 0;
+  right: 40rpx;
+  margin: auto;
+  border-top:15rpx solid #A8AEBE;     /*设置并显示上边框*/
+  border-bottom:none;             /*不设置下边框*/
+  border-left:15rpx solid transparent;     /*设置但隐藏左边框*/
+  border-right:15rpx solid transparent;    /*设置但隐藏右边框*/
+}
